@@ -33,4 +33,4 @@ http://<IP>:5000/how%20are%20you            => I am good, how about you?
 # Note
 If you run the container with the `--host=...` flag, it means that the web server inside the container will be accessible from any IP address on the internet.
 
-So, if someone wants to access your web server from their computer, they can simply open their web browser and enter `http://ContainerIP:5000`. This will allow them to access the content served by your Dockerized web server.
+So, if someone wants to access your web server from their computer, they can simply open their web browser and enter `http://ContainerIP:5000` or `http://localhost:5000`. This will allow them to access the content served by your Dockerized web server.
